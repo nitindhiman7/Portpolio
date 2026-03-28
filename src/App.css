@@ -1,38 +1,369 @@
-.App {
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  position: sticky;
+  top: 0;
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+  color: #38bdf8;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #e2e8f0;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+  text-align: center;
+  padding: 140px 20px;
+}
+
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.4);
+}
+
+/* ================= SECTION ================= */
+
+.section {
+  padding: 100px 8%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sectionnew {
+  text-align: justify;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #38bdf8;
+  display: block;
+  margin: 15px auto 0;
+}
+
+/* ================= GRID LAYOUT ================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ================= MARQUEE ================= */
+
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee {
+  display: flex;
+  gap: 20px;
+  animation: scroll 20s linear infinite;
+}
+
+.marquee div {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px 25px;
+  border-radius: 25px;
+  white-space: nowrap;
+  font-weight: 500;
+  transition: 0.3s;
+  flex-shrink: 0;
+}
+
+.marquee div:hover {
+  background: rgba(56, 189, 248, 0.15);
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* ================= EXPERIENCE ================= */
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #38bdf8;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  width: 50%;
+  padding-right: 30px;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  right: -12px;
+  top: 20px;
+  width: 24px;
+  height: 24px;
+  background: #38bdf8;
+  border-radius: 50%;
+  border: 4px solid #0f172a;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+  left: -12px;
+  right: auto;
+}
+
+.timeline-content {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  background: rgba(56, 189, 248, 0.15);
+}
+
+.timeline-year {
+  color: #38bdf8;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.timeline-content h3 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.timeline-content h4 {
+  margin: 0 0 15px 0;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  margin: 0;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* ================= PROJECTS ================= */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Removed project overlay styles since cards are now image-only links */
+
+/* ================= CONTACT ================= */
+
+#contact p {
+  margin: 10px 0;
+  color: #cbd5e1;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+}
+/* ================= ANIMATIONS ================= */
+
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("./assets/images/newmy.jpeg");
+  background-size: cover;
+  background-position: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+/* ================= Fun Facts ================= */
+.funfacts {
+  background: #1c1f2e;
+  color: white;
+  padding: 100px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.funfacts-left {
+  flex: 1;
+}
+
+.tag {
+  color: #38bdf8;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+
+.funfacts-left h2 {
+  font-size: 48px;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.funfacts-left p {
+  color: #b0b3c7;
+  max-width: 450px;
+}
+
+.funfacts-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.card {
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 40px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.card h3 {
+  font-size: 40px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #38bdf8;
 }

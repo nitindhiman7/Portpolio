@@ -11,23 +11,23 @@ function Projects() {
       image: "/images/project2.jpg",
     },
     {
-      title: "en.virtuosity.com",
-      link: "https://en.virtuosity.com",
+      title: "Origo",
+      link: "https://www.origoinfotech.com",
       image: "/images/project3.jpg",
     },
     {
-      title: "en.virtuosity.com",
-      link: "https://en.virtuosity.com",
+      title: "Blog",
+      link: "https://blog.bentley.com/",
       image: "/images/project4.jpg",
     },
     {
-      title: "en.virtuosity.com",
-      link: "https://en.virtuosity.com",
+      title: "Puprise",
+      link: "https://www.puprise.com/",
       image: "/images/project5.jpg",
     },
     {
-      title: "en.virtuosity.com",
-      link: "https://en.virtuosity.com",
+      title: "Brainmine Tech",
+      link: "https://www.brainminetech.com/",
       image: "/images/project6.jpg",
     },
   ];

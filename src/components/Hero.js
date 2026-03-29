@@ -11,7 +11,7 @@ function Hero() {
       <a href="#projects" className="btn">
         View My Work
       </a>
-      <a href="./assets/images/nitin.pdf.pdf" className="btn">
+      <a href="./assets/images/nitin.pdf" className="btn">
         Download Resume
       </a>
     </section>

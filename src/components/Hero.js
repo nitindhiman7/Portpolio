@@ -6,12 +6,12 @@ function Hero() {
 
       <h1>Hi, I'm Nitin Dhiman 👋</h1>
       <p>
-        Frontend Developer | Web Analytics | Web Technical and Testing Lead
+      Web Technical and Testing Lead | Web Developer | Digital Optimization Expert
       </p>
       <a href="#projects" className="btn">
         View My Work
       </a>
-      <a href="https://nitindhiman7.github.io/Portpolio/nitin.pdf" className="btn" target="_blank" rel="noopener noreferrer">
+      <a href="https://nitindhiman7.github.io/Portpolio/nitin.pdf" className="btn2" target="_blank" rel="noopener noreferrer">
         Download Resume
       </a>
     </section>

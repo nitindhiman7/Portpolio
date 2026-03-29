@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(180deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+background: linear-gradient(180deg, #0f172ae6 0%, #0f172a 60%, #172554 100%);
   background-attachment: fixed;
   color: #ffffff;
 }
@@ -24,7 +24,8 @@ body {
   padding: 20px 8%;
   position: sticky;
   top: 0;
-  background: rgba(15, 23, 42, 0.9);
+  background: rgb(27, 34, 52);
+
   backdrop-filter: blur(10px);
   z-index: 1000;
 }
@@ -32,7 +33,7 @@ body {
 .logo {
   font-weight: 700;
   font-size: 22px;
-  color: #38bdf8;
+  color: #fff;
 }
 
 .nav-links a {
@@ -78,13 +79,28 @@ body {
   text-decoration: none;
   font-weight: 600;
   transition: 0.3s ease;
+  margin: 2px 3px 5px 7px;
 }
 
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(56, 189, 248, 0.4);
 }
+.btn2 {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
 
+.btn2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.4);
+}
 /* ================= SECTION ================= */
 
 .section {
@@ -297,6 +313,12 @@ body {
   .nav-links {
     margin-top: 10px;
   }
+  .sectionnew {
+  text-align: center;
+}
+.timeline-content{
+      padding: 8px;
+}
 }
 /* ================= ANIMATIONS ================= */
 

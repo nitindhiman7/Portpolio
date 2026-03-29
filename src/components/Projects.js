@@ -3,32 +3,33 @@ function Projects() {
     {
       title: "www.bentley.com",
       link: "https://www.bentley.com",
-      image: "/images/project1.jpg",
+      image: "/Portpolio/images/project1.jpg",
     },
     {
       title: "www.bentley.cn",
       link: "https://www.bentley.cn",
-      image: "/images/project2.jpg",
+      image: "/Portpolio/images/project2.jpg",
     },
     {
       title: "Origo",
       link: "https://www.origoinfotech.com",
-      image: "/images/project3.jpg",
+      image: "/Portpolio/images/project3.jpg",
     },
     {
       title: "Blog",
       link: "https://blog.bentley.com/",
-      image: "/images/project4.jpg",
+      image: "/Portpolio/images/project4.jpg",
     },
     {
       title: "Puprise",
       link: "https://www.puprise.com/",
-      image: "/images/project5.jpg",
+      image: "/Portpolio/images/project5.jpg",
     },
     {
       title: "Brainmine Tech",
       link: "https://www.brainminetech.com/",
-      image: "/images/project6.jpg",
+      image: "/Portpolio/images/project6.jpg",
+      
     },
   ];
 

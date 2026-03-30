@@ -6,7 +6,7 @@ function About() {
       <p>
         I am a results-driven Web Technical Lead with over 9 years of experience in web development,
       testing, and digital optimization. Currently working with Bentley Systems, I specialize in 
-      managing Adobe Commerce, WordPress, Sitecore, Optimizelyand e-commerce platforms while leading 
+      managing Adobe Commerce, WordPress, Sitecore, Optimizely and e-commerce platforms while leading 
       cross-functional teams to deliver high-performing, user-focused websites.</p>
        <p>My expertise includes HTML, CSS, JavaScript, React, GA4, GTM 
        implementation, SEO analysis, automation testing, and AI-driven website optimization. 

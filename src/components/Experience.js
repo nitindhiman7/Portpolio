@@ -4,19 +4,19 @@ function Experience() {
       year: "2022 - Present",
       role: "Web Technical & Testing Lead",
       company: "Bentley Systems",
-      description: "Developed responsive website using Wordpress,Sitecore,Adobe Commerce, and CSS. Improved site performance by 40% and implemented SEO best practices."
+      description: "Developed responsive websites using WordPress, Sitecore, Adobe Commerce, Optimizely, Html and CSS. Enhanced site performance by 40%, implemented SEO best practices and Web accessibility by using GA4 and Screaming frog. Created test cases and contributed to both manual and automation testing."
     },
     {
       year: "2018 - 2022",
       role: "Web Developer",
       company: "Bentley Systems",
-      description: "Built custom websites for clients using Sitecore, HTML5, and Bootstrap. Managed Google Analytics and Core Web Vitals optimization."
+      description: "Built custom websites for clients using Sitecore, HTML5, and Bootstrap. Managed Google Analytics and Core Web Vitals optimization. Managed multilingual site management and media library assets."
     },
     {
       year: "2016 - 2018",
       role: "Web Developer",
       company: "Brainmine Web Solutions",
-      description: "Developed 30+ sites using Html, Css, Javascript, Bootstrap and Wordpress. Gained experience in SEO and web analytics."
+      description: "Developed 30+ sites using Html, Css, Javascript, Bootstrap and Wordpress. Gained experience in SEO off-page optimization and On-page optimization and web analytics. Managed web hosting and domain management for clients."
     }
   ];
 

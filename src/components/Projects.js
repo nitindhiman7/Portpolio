@@ -42,7 +42,7 @@ function Projects() {
 
   return (
     <section id="projects" className="section">
-      <h2>Projects</h2>
+      <h2>Major Projects</h2>
       <div className="grid">
         {projects.map((project, index) => (
           <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="project-card">

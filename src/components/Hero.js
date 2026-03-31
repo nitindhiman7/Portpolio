@@ -11,7 +11,7 @@ function Hero() {
       <a href="#projects" className="btn">
         View My Work
       </a>
-      <a href="https://nitindhiman7.github.io/Portpolio/nitin-web-lead.pdf" className="btn2" target="_blank" rel="noopener noreferrer">
+      <a href="https://nitindhiman7.github.io/Portpolio/Nitin-web-lead.pdf" className="btn2" target="_blank" rel="noopener noreferrer">
         Download Resume
       </a>
     </section>

@@ -10,11 +10,14 @@ function Skills() {
           <div>CSS</div>
           <div>Bootstrap</div>
           <div>SEO</div>
+          <div>AI</div>
+          <div>GitHub Copilot</div>
           <div>Google Analytics</div>
           <div>Core Web Vitals</div>
           <div>WordPress</div>
           <div>Adobe Commerce</div>
           <div>Sitecore</div>
+          <div>Optimizely</div>
           {/* Duplicate for seamless loop */}
           <div>React</div>
           <div>JavaScript</div>
@@ -22,11 +25,14 @@ function Skills() {
           <div>CSS</div>
           <div>Bootstrap</div>
           <div>SEO</div>
+          <div>AI</div>
+          <div>GitHub Copilot</div>
           <div>Google Analytics</div>
           <div>Core Web Vitals</div>
           <div>WordPress</div>
           <div>Adobe Commerce</div>
           <div>Sitecore</div>
+           <div>Optimizely</div>
         </div>
       </div>
     </section>

@@ -4,7 +4,9 @@ function Hero() {
   return (
     <section className="hero">
 
-      <h1>Hi, I'm Nitin Dhiman 👋</h1>
+      <h1>
+        Hi, I'm Nitin Dhiman <span className="wave-hand">👋</span>
+      </h1>
       <p>
       Web Technical and Testing Lead | Web Developer | Digital Optimization Expert
       </p>

@@ -60,8 +60,32 @@ background: linear-gradient(180deg, #0f172ae6 0%, #0f172a 60%, #172554 100%);
   font-size: 52px;
   margin-bottom: 20px;
   background: linear-gradient(90deg, #38bdf8, #818cf8);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.wave-hand {
+  display: inline-block;
+  color: #ffffff;
+  background: none;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  transform-origin: 70% 70%;
+  animation: waveShake 1.2s infinite;
+}
+
+@keyframes waveShake {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
 }
 
 .hero p {
